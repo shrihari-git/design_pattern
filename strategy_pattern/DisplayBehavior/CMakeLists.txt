@@ -1,0 +1,11 @@
+set(SOURCE
+   ${SOURCE}
+   ${CMAKE_CURRENT_SOURCE_DIR}/DisplayAsText.cpp
+   PARENT_SCOPE
+)
+set(HEADERS
+   ${HEADERS}
+   ${CMAKE_CURRENT_SOURCE_DIR}/IDisplayBehavior.h
+   ${CMAKE_CURRENT_SOURCE_DIR}/DisplayAsText.h
+   PARENT_SCOPE
+)

@@ -1,0 +1,13 @@
+set(SOURCE
+   ${SOURCE}
+   ${CMAKE_CURRENT_SOURCE_DIR}/NoQuack.cpp
+   ${CMAKE_CURRENT_SOURCE_DIR}/SimpleQuack.cpp
+   PARENT_SCOPE
+)
+set(HEADERS
+   ${HEADERS}
+   ${CMAKE_CURRENT_SOURCE_DIR}/IQuackBehavior.h
+   ${CMAKE_CURRENT_SOURCE_DIR}/NoQuack.h
+   ${CMAKE_CURRENT_SOURCE_DIR}/SimpleQuack.h
+   PARENT_SCOPE
+)
